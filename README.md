@@ -34,7 +34,7 @@ pip install pymysql
 
 ### Run scanner
 ```bash
-python cveye.py 192.168.1.10
+python vulnerability_scanner.py 192.168.1.10
 ```
 
 ### Optional Arguments
@@ -46,7 +46,7 @@ python cveye.py 192.168.1.10
 
 Example:
 ```bash
-python cveye.py 10.0.0.5 --start-port 20 --end-port 100 --no-udp
+python vulnerability_scanner.py 10.0.0.5 --start-port 20 --end-port 100 --no-udp
 ```
 
 ---
